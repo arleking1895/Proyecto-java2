@@ -1,0 +1,7 @@
+com\mycompany\ventas2\resources\JakartaEE11Resource.class
+config\test.class
+com\mycompany\ventas2\JakartaRestConfiguration.class
+modelo\Cliente.class
+modelo\ClienteDao.class
+controlador\ClienteControlador.class
+config\Conexion.class
