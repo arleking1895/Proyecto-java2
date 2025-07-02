@@ -1,0 +1,161 @@
+  *{
+      font-size: medium;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.tabla-contenedor {
+  background-color: rgba(185, 195, 206, 0.85);
+  /* Fondo blanco semitransparente */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 12px;
+  max-width: 98%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: transparent;
+  /* Dejamos la tabla sin fondo propio */
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+thead {
+  background-color: #6c5ce7;
+  ;
+  /* Fondo oscuro semitransparente */
+  color: white;
+}
+
+table tr td {
+  vertical-align: middle;
+  color: #000;
+}
+
+td button {
+  margin: 5px;
+}
+
+td button i {
+  font-size: 20px;
+}
+
+.modal-header {
+  background: #6c5ce7;
+  color: #fff;
+}
+.modal-custom {
+  max-width: 500px;
+}
+
+
+#readData form .inputField>div input {
+  color: #000;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #607E8B;
+  padding: 10px 20px;
+ 
+
+
+
+}
+
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ 
+}
+
+.logo img {
+  height: 80px;
+  border-radius: 40%;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.logout-button {
+  padding: 15px 15px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+.logout-button:hover {
+  background-color: #7A6BAF;
+  color: white;
+}
+
+h3 {
+  margin: 30px;
+  color: white;
+}
+
+.admin {
+  color: white;
+}
