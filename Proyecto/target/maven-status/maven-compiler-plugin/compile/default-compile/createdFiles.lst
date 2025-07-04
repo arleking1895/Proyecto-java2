@@ -1,0 +1,8 @@
+modelo\Pago.class
+modelo\Cliente.class
+modelo\ClienteDao.class
+controlador\ClienteControlador.class
+config\Conexion.class
+com\mycompany\proyecto\resources\JakartaEE11Resource.class
+com\mycompany\proyecto\JakartaRestConfiguration.class
+modelo\PagoDao.class

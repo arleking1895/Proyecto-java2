@@ -1,0 +1,89 @@
+  * {
+      font-size: medium;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+  body {
+      margin: 0;
+      padding: 0;
+
+  }
+
+
+
+  .tabla-contenedor {
+      background-color: rgba(185, 195, 206, 0.85);
+      /* Fondo blanco semitransparente */
+      padding: 20px;
+      margin: 20px;
+      border-radius: 12px;
+      max-width: 98%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: transparent;
+      /* Dejamos la tabla sin fondo propio */
+  }
+
+  th,
+  td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+  }
+
+  thead {
+      background-color: #6c5ce7;
+      ;
+      /* Fondo oscuro semitransparente */
+      color: white;
+  }
+
+  table tr td {
+      vertical-align: middle;
+      color: #000;
+  }
+
+  td button {
+      margin: 5px;
+  }
+
+  td button i {
+      font-size: 20px;
+  }
+
+  .modal-header {
+      background: #6c5ce7;
+      color: #fff;
+  }
+
+  .modal-custom {
+      max-width: 500px;
+  }
+
+
+  #readData form .inputField>div input {
+      color: #000;
+  }
+
+
+.navbar-center {
+  background-color: #607D8B;
+  color: white;
+  font-weight: bold;
+   padding: 35px 30px;
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+  width: 100%;              /* Asegura que el div ocupe todo el ancho */
+}
+
+
+  .btn-regresar {
+      margin-top: 20px;
+  }
